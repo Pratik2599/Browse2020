@@ -1,0 +1,147 @@
+
+body, html {
+  background-color: rgb(237, 235, 240);
+}
+
+body, p, input, select, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.1px;
+  font-size: 16px;
+}
+
+div, p {
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+.container {
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto;
+}
+.down
+{
+  color: black !important;
+}
+.segment {
+  padding: 2px 0 0 0;
+  text-align: center;
+  border-bottom: solid #080808f1 2px;
+  margin-bottom: 10px;
+}
+#options input
+{
+  margin-bottom: 30px;
+  font-size: 40px !important;
+}
+.segment h1{
+  font-size: 2em;
+  font-weight: 400;
+  color: #1b7374;
+}
+ 
+button, input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 10px;
+  text-shadow: 1px 1px 0 rgb(255, 255, 255);
+}
+
+.my1{
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.my1 input
+{
+    width: 70%;
+    border: rgb(172, 171, 171) solid 1px;
+}
+
+
+button {
+  color: rgb(75, 76, 78);
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+button .icon {
+  margin-right: 8px;
+}
+button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+button.unit .icon {
+  margin-right: 0;
+}
+button.red {
+  display: block;
+  width: 100%;
+  color: rgb(0, 165, 174);
+}
+@media only screen and (max-width : 800px)
+{
+    .container{
+      width: 80%;
+    }
+}
+/*--------------------------------------------------------------
+# Header optional
+--------------------------------------------------------------*/
+.container1 {
+  padding: 10px;
+  
+  margin: 0 auto;
+    text-align: center;
+  
+}
+#header {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding-top: 10px ;
+  background: #1e4356;
+  
+}
+
+#header.header-transparent {
+  background: none;
+}
+
+
+#header .logo h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 4px 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+    
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+    color: #ffffff;
+
+  text-decoration: none;
+}
+

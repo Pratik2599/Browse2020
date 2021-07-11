@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Browse</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <link rel="stylesheet"  href="css/style.css">
+     <link rel="stylesheet"  href="css/font.css">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+    <div class="loaderMain">
+        <div class='loader-ring'>
+          <div class='loader-ring-light'></div>
+          <img src="img/logo.png" class="loaderLogo">
+          <div class='loader-ring-track'></div>
+        </div>
+      </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+        <div class="container">
+
+            <div class="logo float-left">
+                <h1 class="text-light"><a href="index.html"><span>BROWSE 2K20</span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav class="nav-menu float-right d-none d-lg-block">
+                <ul>
+                     
+                     <li><a onclick="changeTab('ABOUT')">About</a></li>
+                     <li><a onclick="changeTab('LIFE')">Life Extension</a></li>
+                     <li><a onclick="changeTab('MIND')">Mind Snare</a><li>
+                     <li><a onclick="changeTab('CYBER')">Cyber Etymology</a></li>
+                     <li><a onclick="changeTab('BYTE')">Byte Surge</a></li>
+                     <li><a onclick="changeTab('PRASTUTI')">Prastuti</a></li>
+                     <li><a onclick="changeTab('PHOTO')">Photo Hunt</a></li>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End Header -->
+
+ <div id="particles-js" class="p1">
+        <div id="MENU" class="my">
+            <div class="my1">
+                <div class="main1">
+                <div class="container">
+                       <section class="typing">
+                          <h2 id="writer" >
+                          </h2>
+                           <p id="textBelowAnimation">A Technical Symposium of CSE, ISE and MCA.</p>
+                          </section></div><br>
+                   
+                
+                </div>
+                <div id="clockdiv">
+                            <div class="div1">
+                                <span id="days"></span>
+                                <div class="smalltext">Days</div>
+                            </div>
+                            <div class="div1">
+                                <span id="hours"></span>
+                                <div class="smalltext">Hours</div>
+                            </div>
+                            <div class="div1">
+                                <span id="minutes"></span>
+                                <div class="smalltext">Minutes</div>
+                            </div>
+                            <div class="div1">
+                                <span id="seconds"></span>
+                                <div class="smalltext">Seconds</div>
+                            </div>
+                        </div>
+            </div>
+            <section class="features">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>Events</h2>
+                        <p>Various events are conducted for student to showcase their talent.
+                        </p>
+                    </div><br>
+
+                    <div class="row" id="1">
+                        <div class="col-md-5">
+                            <img src="img/asd.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-7 pt-4">
+                            <h3>Life Extension</h3>
+                            <p class="font" >
+                                This will be an ideal platform, where budding gamers can explore and develop their skills 
+                                and use this as a 
+                                good practice 
+                                session.
+                            </p>
+                            <ul>
+                                <li><i class="icofont-check"></i> Gaming is a very popular frenzy and we now have 
+                                    hundreds of gamers.</li>
+                                <li><i class="icofont-check"></i> They need more exposure to hone their skills 
+                                    and compete with the best in the college. </li>
+                            </ul>
+                            <a onclick="changeTab('LIFE')"><button class="btn btn-block btn-info">Know More</button></a>
+                        </div>
+                    </div>
+                    <div class="row" id="2">
+                        <div class="col-md-5 order-1 order-md-2">
+                            <img src="img/awe.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1">
+                            <h3>Mind Snare</h3>
+                            <p class="font">
+                                It is a quiz contest between different teams on topics of technology,
+                                programming and 
+                                technical 
+                                aspects.
+                            </p>
+                            <p>
+                                Register in  members of 2 per Team to enter in the contest 
+                                and win the prize
+                            </p>
+                            <a onclick="changeTab('MIND')"><button class="btn btn-block btn-info">Know More</button></a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="3">
+                        <div class="col-md-5">
+                            <img src="img/bg2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-7 pt-5">
+                            <h3>Cyber Etymology</h3>
+                            <p> Derivation of words from originals,
+                                it is a game of scrabble related to Computer Science
+                                and Technology.</p>
+                            <ul>
+                                <li><i class="icofont-check"></i> Register in team of trio.</li>
+                                <li><i class="icofont-check"></i> It is a game of scrabble related to Computer Science and Technology.
+                                </li>
+                                <li><i class="icofont-check"></i> During the competition 30 characters will be given to each team.</li>
+                            </ul>
+                            <a onclick="changeTab('CYBER')"><button class="btn btn-block btn-info">Know More</button></a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="4">
+                        <div class="col-md-5 order-1 order-md-2">
+                            <img src="img/aqx.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1">
+                            <h3>Byte Surge</h3>
+                            <p class="font">
+                                A programming competition that involves giving a set of logical or mathematical problems 
+                                to the contestants.The contestants are required to 
+                                write computer programs capable of solving each problem. 
+                            </p>
+                            <p>
+                                Judging is based mostly upon number of problems solved 
+                                and time spent for writing successful solutions, 
+                                but may also include other factors 
+                                (quality of output produced, execution time, program size, etc.).
+                            </p>
+                            <a onclick="changeTab('BYTE')"><button class="btn btn-block btn-info">Know More</button></a>
+                        </div>
+                    </div>
+                   
+                    <div class="row" id="5">
+                                <div class="col-md-5">
+                                    <img src="img/awsd.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7 pt-5">
+                                    <h3>Prastuti</h3>
+                                    <p class="font">
+                                        Paper Presentation is all about how you put your topic or present your topic in front of the audience.
+                                         They see the way you present your topic, the way you put your points, 
+                                         your presentation style, your language and how promptly and effectively you answer their questions.
+                                    </p>
+                                    <p>
+                                        If you are a whiz kid when it comes to articulating an 
+                                        idea and stating your viewpoint. And this is your golden 
+                                        chance to do so.This is your platform to express yourself.
+                                    </p>
+                                    <a onclick="changeTab('PRASTUTI')"><button class="btn btn-block btn-info">Know More</button></a>
+                                </div>
+                    </div>
+                    
+                    <div class="row" id="6">
+                        <div class="col-md-5 order-1 order-md-2">
+                            <img src="img/photoHunt.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1">
+                            <h3>Photo Hunt</h3>
+                            <p class="font">
+                                Selfie Gaming Contest : It is a contest in which 
+                                the contestants show their creativity in taking selfies.</p>
+                                <a onclick="changeTab('PHOTO')"><button class="btn btn-block btn-info">Know More</button></a>
+                        </div>
+                    </div>
+
+                    <footer id="footer">
+                        <div class="container">
+                            <div class="credits">
+                                Developed by <a href="http://www.sitsark.in">Team Sark</a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+                
+        </div>
+    <!--langding pages-->
+    <div class="sameAsmy">
+     <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="ABOUT">
+       <div class="row">
+           <div class="col-md-2">
+                <img style="height:100px;width:100px;" alt="SIT" src="img/logo.png">
+           </div>
+            <div class="col-md-10">
+                <h3>Siddaganga Institute of Technology</h3>
+                <h4>Tumakuru, Karnataka - 572103</h4>
+           </div>
+         </div>
+         <br>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.3754899339333!2d77.1239061142041!3d13.326903110589507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02e826fb691ef%3A0xe78608813c36f380!2sSiddaganga+Institute+Of+Technology%2C+Tumakuru!5e0!3m2!1sen!2sin!4v1551981005526" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br><br>
+        <h4>Association Of</h4>
+        <div class="col">
+            <div class="row">
+            <div class="col-sm-4">
+                <img style="height:100px;width:100px;" class="image" alt="CSE" src="img/cse.png">
+                <br><a href="http://sit.ac.in/html/department.php?deptid=6" style="color: skyblue;">Department of Computer Science and Engineering</a><br>
+            </div>
+            <div class="col-sm-4">
+                <img style="height:100px;width:100px;" class="image" alt="ISE" src="img/IT.png">
+                <br><a href="http://sit.ac.in/html/department.php?deptid=11" style="color: skyblue;">Department of Information Science and Engineering</a><br>
+            </div>
+            <div class="col-sm-4">
+                <img style="height:100px;width:100px;" class="image" alt="MCA" src="img/mca.png">
+                <br><a href="http://sit.ac.in/html/department.php?deptid=15" style="color: skyblue;">Master of Computer Application</a><br>
+            </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+       <br>
+       <div class="row">
+         <div class="col-sm-6">
+           <b><ul>PRESIDENT</ul></b>
+             <br>
+             Dr. R Sumathi<br>
+             Prof. & Head, Department of CSE
+             <br>
+             Siddaganga Institute Of Technology
+             <br>
+           <br>
+           <br>
+           <b><ul>SARK Faculty Co-ordinator</ul></b>
+             
+             Dr. Purohit Shrinivasacharya<br>
+             Associate Professor, Department of ISE
+             <br>
+             Siddaganga Institute Of Technology
+             <br>
+           <br>
+           
+         </div>
+         <div class="col-sm-6">
+             <b><ul>Co-ordinators</ul></b>
+             <br>
+             Dr. H S Jayanna <br> Prof.& Head,
+              Department of ISE
+              <br>
+              Siddaganga Institute Of Technology
+              <br>
+              <br>
+             Dr. M. A. Jayaram<br>
+             Director, MCA
+             <br>
+              Siddaganga Institute Of Technology
+              <br>
+           </div>
+           <div class="col-sm-6">
+
+         </div>
+       </div>
+       <br><br>
+           <h4>Developers</h4>
+           <div class="containers">
+              <article id="contact" style="display: block;" class="sponsers">
+              <div class="row">
+               <div class="card border-dark bg-transparent col-md-3" style="width:400px">
+                 <img class="card-img-top" src="img/dev/pratik.png" alt="Card image">
+                 <div class="card-body">
+                   <h5 class="card-title">Pratik</h5>
+                   <p class="card-text">ISE 2nd Year<br>Team SARK</p>
+                 </div>
+               </div>
+               
+               <div class="card border-dark bg-transparent col-md-3" style="width:400px">
+                 <img class="card-img-top" src="img/dev/sourav.jpg" alt="Card image">
+                 <div class="card-body">
+                   <h5 class="card-title">Sourav Biswas</h5>
+                   <p class="card-text">ISE 2nd Year<br>Team SARK</p>
+                 </div>
+               </div>
+               <div class="card border-dark bg-transparent col-md-3" style="width:400px">
+                 <img class="card-img-top" src="img/dev/AMIT (2).jpg" alt="Card image">
+                 <div class="card-body">
+                   <h5 class="card-title">Amit Kumar</h5>
+                     <p class="card-text">CSE 2nd Year<br>Team SARK</p>
+                 </div>
+               </div>
+               <div class="card border-dark bg-transparent col-md-3" style="width:400px">
+                <img class="card-img-top" src="img/dev/SURAJ.jpg" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Suraj Jha</h5>
+                    <p class="card-text">CSE 2nd Year<br>Team SARK</p>
+                </div>
+              </div>
+
+             </div>
+            </div> 
+           </article>
+           
+           
+     </div>
+      <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="MIND">
+        <h2>Mind Snare</h2>
+        <p>
+            <b>Technical Quiz : </b>It is a quiz contest between different teams on topics of technology,programming and technical aspects.
+            <br>
+
+            <br><b>Notices : </b>
+            <br>
+            Maximum 2 members per Team.
+            <br>
+
+            For more details about topic Contact : H S Vijay Kumar(MCA)    9844521479
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <!-- image grid -->
+        <br><h2>Gallery</h2><br>
+        <div class="row">
+            <div class="column">
+              <img src="img/eve/1.jpg">
+            </div>
+              <div class="column">
+                <img src="img/eve/12.jpg">
+              </div> 
+              <div class="column">
+                <img src="img/eve/7.jpg">
+              </div>
+           </div>
+          </div>
+        <!-- image grid ends -->
+     
+     <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="CYBER">
+        <h2>Cyber Etymology</h2>
+        <p>
+            <b>Etymology :</b>
+
+            Derivation of words from originals
+            <br>
+            It is a game of scrabble related to Computer Science and Technology.
+            <br>
+            <br><b>Notices : </b><br>
+            Upto 3 members per team
+            <br>
+            During the competition 30 characters will be given to each team.
+            <br>
+            Convener : Nagaratna B Chittaragi(ISE)  9449303604
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <br>
+        <br><h2>Gallery</h2><br>
+         <!-- image grid -->
+         <div class="row">
+            <div class="column">
+              <img src="img/eve/2.jpg">
+            </div>
+              <div class="column">
+                <img src="img/eve/3.jpg">
+              </div> 
+              <div class="column">
+                <img src="img/eve/11.jpg">
+            </div>
+           </div>
+        <!-- image grid ends -->
+           
+      </div>
+      <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="LIFE">
+        <h2>Life Extension</h2>
+        <p><b>Gaming Contest : </b>
+            Gaming is a very popular frenzy and we now have hundreds of gamers. They need more exposure to hone their skills and compete with the best in the college. We hope that this meet will help them come together and give them a fair idea about where they stand. This will be the ideal platform where budding gamers can explore and develop their skills and the more experienced ones can use this as a good practice session.
+            <br>
+            <br><b>Notices : </b>
+            <br>
+            Individual Entries
+            <br>
+            For more details about topic, Contact : Kiran Kumar T M 9844379612
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <br>
+        <br><h2>Gallery</h2><br>
+        <!-- image grid -->
+        <div class="row">
+            <div class="column">
+              <img src="img/eve/9.jpg">
+            </div>
+              <div class="column">
+                <img src="img/eve/5.jpg">
+              </div> 
+            <div class="column">
+                <img src="img/eve/8.jpg">  
+            </div>
+        </div>
+        <!-- image grid ends -->
+      </div>
+      <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="PRASTUTI">
+        <h2>Prastuti</h2>
+        <p>
+            <b>Paper Presentation : </b>Paper Presentation is all about how you put your topic or present your topic in front of the audience. They see the way you present your topic, the way you put your points, your presentation style, your language and how promptly and effectively you answer their questions.
+            <br>
+            If you are a whiz kid when it comes to articulating an idea and stating your viewpoint. And this is your golden chance to do so.This is your platform to express yourself.
+            <br>
+            <br><b>Notices : </b><br>
+            Maximum 2 members per Team.
+            <br>
+            Last Date for Submission : 14<sup>th</sup> March 2019
+
+            <br>
+            For more details about topic, Contact : Asha Gowda Karegowda (MCA dept..)  9844327268
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <br>
+        <br><h2>Gallery</h2><br>
+         <!-- image grid -->
+         <div class="row">
+              <div class="column">
+                <img src="img/eve/13.jpg">
+              </div> 
+              <div class="column">
+                <img src="img/eve/4.jpg">
+            </div>
+            <div class="column">
+                <img src="img/eve/5.jpg">  
+            </div>
+          </div>
+        <!-- image grid ends -->
+           
+      </div>
+      <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="BYTE">
+        <h2>Byte Surge</h2>
+        <p><b>Byte Surge : </b>
+            A programming competition that involves giving a set of logical or mathematical problems to the contestants.The contestants are required to write computer programs capable of solving each problem. Judging is based mostly upon number of problems solved and time spent for writing successful solutions, but may also include other factors (quality of output produced, execution time, program size, etc.
+            <br></brt><br><b>Notices : </b><br>
+            Maximum 2 members per Team.
+            <br>
+            Language : C, C++
+            <br>
+            For further information contact : Prabodh C P (CSE dept)  8151894110
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <br>
+        <br><h2>Gallery</h2><br>
+         <!-- image grid -->
+         <div class="row">
+            <div class="column">
+              <img src="img/eve/14.jpg">
+            </div>
+              <div class="column">
+                <img src="img/eve/12.jpg">
+              </div> 
+              <div class="column">
+                <img src="img/eve/9.jpg">
+            </div>
+           </div>
+        <!-- image grid ends -->
+           
+      </div>
+      <div class="mainContainers offset-sm-2 col-sm-8 offset-sm-2 text-center" id="PHOTO">
+        <h2>Photo Hunt</h2>
+        <p>
+            <b>Selfie Gaming Contest : </b>
+
+            It is a contest in which the contestants show their creativity in taking selfies.
+            <br>
+            <br><b>Notices : </b><br>
+            Maximum 2 members per Team
+            <br>
+        </p>
+        <br>
+        <a href="form.html"><button class="btn btn-block btn-success " id="all">Register</button></a>
+        <br>
+        <br><h2>Gallery</h2><br>
+         <!-- image grid -->
+         <div class="row">
+            <div class="column">
+              <img src="img/eve/8.jpg">
+            </div>
+              <div class="column">
+                <img src="img/eve/3.jpg">
+              </div> 
+              <div class="column">
+                <img src="img/eve/1.JPG">
+            </div>
+           </div>
+          </div>
+        <!-- image grid ends -->
+           
+      </div>
+     </div>
+    </div>
+
+    <!-- ======= Features Section ======= -->
+    <!-- End Features Section -->
+
+<!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script> 
+    <script src="js/animation.js"></script>
+    <script src="js/countdown.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="js/byte3.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json loaded...');
+        });
+    </script>
+</body>
+
+</html>
